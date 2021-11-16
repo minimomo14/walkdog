@@ -1,0 +1,40 @@
+/* A client wants you to make a site for their new dog walking business.
+The client’s head developer wants you to build our navigation using floats because that is what is being used on the rest of their site and she is most familiar with it.
+The designer gives you the .png in the next slide, so you should make sure it looks like what the client wants!
+Remember - You can only use floats and display: inline-block right now.
+The font they want you to use is Lato.
+The background color of the navigation is #551A8B.
+The font color is rgba(255,255,255,0.8).
+Good luck!.*/
+
+body {
+    font-family:'Lato', sans-serif;
+    font-size: 30px
+  
+  }
+  
+  .header {
+    background-color: #551A8B;
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%; }
+   
+  .nav-list {
+    display: flex;
+    text-decoration: none;
+    
+  }
+  
+  p{
+    float: left; 
+    color: rgba(255,255,255,0.8);
+  }
+  
+  .nav-item {
+    color: rgba(255,255,255,0.8);
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  
