@@ -8,42 +8,49 @@ The font color is rgba(255,255,255,0.8).
 Good luck!.*/
 
 body {
-    font-family: Lato;
-    font-size: 20px;
-    margin: 0px;
-    
+  font-family: Lato;
+  font-size: 20px;
+  margin: 0px;
+}
+
+header {
+  background-color: #551a8b;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.nav-list {
+  text-decoration: none;
+  display: flex;
   
-  }
-  
+}
+
+p {
+  display: flex;
+  justify-content: flex-start;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0px;
+  padding: 10px;
+}
+
+.nav-item {
+  color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  text-decoration: none;
+}
+
+
+@media screen and (min-width: 768px) {
   header {
-    background-color: #551A8B;
     display: flex;
-    align-items: center;
+    flex-direction: row-reverse;
     justify-content: space-between;
     width: 100%;
-
-     }
-     
-  .nav-list {
-    text-decoration: none;
-    display: flex;
-    
-    
-  }
-  
-  p {
-    display: flex;
-    justify-content: flex-start; 
-    color: rgba(255,255,255,0.8);
+    height: 15px;
     margin: 0px;
-    padding: 10px;
-
+    padding: 15px;
   }
   
-  .nav-item {
-    color: rgba(255,255,255,0.8);
-    padding: 10px;
-    text-decoration: none;
-  }
-  
-  
+}
